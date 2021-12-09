@@ -1,5 +1,5 @@
 # Mastering RStudio: Tips and tricks to become a professional codeR
-**Fast and efficient use of smart packages and RStudio workspace**
+**Fast and efficient use of smart packages and RStudio workspace**  
 with soundtrack from Tame Impala
 
 This tutorial was designed to help you to boost your confidence in R and RStudio by showing you how you can use RStudio to its full potential with simple tips, tricks and shortcuts, that are available either in RStudio itself or in several practical packages.
@@ -7,6 +7,8 @@ This tutorial was designed to help you to boost your confidence in R and RStudio
 ### Why do you need this?
 
 Let me start by saying that R is not the easiest coding language to learn and it might be that just like the rest of us, you are struggling to get a grip on it and need a little boost to help you learn to love it and maybe even make it a little bit of fun. The RStudio is an opensource software used increasingly in data science, but especially because of the characteristics and specificities of the language (don't use spaces in your file names!) is known to drive people crazy, frustrated and overwhelmed - and you might not be the exception! Your workspace may look too busy for you to concentrate or you just want to be a little faster in your command, so you can focus on the actual analysis you were supposed to do in the first place... right?
+
+But remember, even if you're struggling now, eventually even [terrible memories turn into great ones!](https://youtu.be/C7VlC0QjdHU?t=38) and soon you'll be surprised by your new coding abilities!
 
 While these tips will not necessarily give you all the quantitative skills to become an experienced data scientist, they will make you feel like one, which is only a step away from the final transformation. With a little bit of luck, this tutorial will make coding less overwhelming and way more enjoyable. The material that I will be sharing are mostly quick fixes to make coding smoother and faster and if it gets too much at any point, you can stop and come back to it when you have more energy! This means the tutorial is friendly for all kinds of working patterns and above all should give you motivation along your coding journey, whether you're a beginner or an experienced coder. It's designed as a resource to help you, so you can work through it on your own terms, one step at a time.
 
@@ -17,11 +19,13 @@ Specify what version of R im using
 Outline:
 - Organizing your RStudio workspace for convenience
   - Make your script pane larger
-  - Set RStudio to never save your workspaceimage
+  - Set RStudio to never save your workspace image
   -
 - Using built in shortcuts
 - Useful packages
 - Keyboard shortcuts
+  - Format your script with one click
+
 
 - Bonus: personalization
 
@@ -34,11 +38,18 @@ Let's begin by making your RStudio feel a bit more homey! If you ask me, the ori
 
 Navigate to the upper panel, click on tools and choose "Global options..."
 
+...and this window will pop up:
 
-...and this window will pop up.
+<p style="text-align:center;"><img src="paneorganization.png" alt="paneorganization" width="500"/>
 
 
-You can organize your panes to best suit you, but I have found that when I put the console to the upper right corner, and move the everything else in the lower left panel, with only history on the bottom right, I get a lot more space to write my script and see the console at the same time. The history panel is rarely used, so we can minimize it and enjoy the extra space!
+You can organize your panes to best suit you, but this way works well to make the script panel larger while still having access to everything we need:
+- script in top left corner
+- console in top right corner
+- history in bottom left corner
+- everything else (environment, git and plots) in the bottom right panel  
+
+The history panel is rarely used, so we can minimize it and enjoy the extra space!
 
 
 
@@ -48,7 +59,7 @@ By the way, you might have noticed the theme of my RStudio is yellow! This is no
 One of the things you know, or will undoubtly learn along your R journey, is that the best way to go around saving your work is to save your script either on your computer or even better online using version control such as Github (**click here for a guide on version control**).  
 When you save the script, you don't have to save the image of your workplace (i.e. everything in the console) which can take up unnecessary space on your computer.
 
-![Saving workspace](saveworkspace.png)
+<p style="text-align:center;"><img src="saveworkspace.png" alt="saveworkspace" width="500"/>
 
 When this image appears on your screen, you can just press "Don't save", but let me tell you, you will get annoyed by this [eventually](https://youtu.be/GHe8kKO8uds?t=94)... Which is why you can set your RStudio to never ask this again!
 
