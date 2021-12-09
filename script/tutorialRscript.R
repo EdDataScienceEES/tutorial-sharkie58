@@ -12,3 +12,4 @@ library("readxl")
 
 # Load files ----
 impala <- read_excel("tameimpala.xlsx")
+
