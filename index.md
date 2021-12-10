@@ -1,6 +1,5 @@
-# Mastering RStudio: Tips and tricks to become a professional codeR
-**Fast and efficient use of smart packages and RStudio workspace**  
-with soundtrack from Tame Impala
+<p style="text-align:center;"><img src="images/coverimage2.png" alt="coverimage2"/>
+
 
 This tutorial was designed to help you to boost your confidence in R and RStudio by showing you how you can use RStudio to its full potential with simple tips, tricks and shortcuts! It is supposed to make you feel good about your fresh R skills and works best coupled with a pair of headphones!
 
@@ -71,7 +70,7 @@ When you save the script, you don't have to save the image of your workplace (i.
 
 <p style="text-align:center;"><img src="images/saveworkspace.png" alt="saveworkspace" width="500"/>
 
-When this image appears on your screen, you can just press "Don't save", but let me tell you - you will get annoyed by this [eventually](https://youtu.be/GHe8kKO8uds?t=94)... Which is why you can set your RStudio to never ask this again!
+When this image appears on your screen, you can just press "Don't save", but let me tell you - you will get annoyed by this <a href="https://youtu.be/GHe8kKO8uds?t=94" target="_blank">eventually</a>... Which is why you can set your RStudio to never ask this again!
 
 Click on `Tools` again, select `Global options...` and then `General`. Then you can untick "Restore .RData into workspace at startup" and set saving of .RData on exit to Never. Click OK and the message will never show up again!  
 
@@ -91,7 +90,7 @@ My favorite shortcuts are code snippets, which I use at the start of any analysi
 
 Code snippets are not only those highlighted excerpts from your script, but are also tools used while writing common code. They can save you lots of time when you get used to them!
 
-Try writing `lib` in your script and [let it happen](https://youtu.be/odeHP8N4LKc?t=40).
+Try writing `lib` in your script and <a href="https://youtu.be/odeHP8N4LKc?t=40" target="_blank">let it happen</a>...
 <p style="text-align:center;"><img src="images/lib.png" alt="lib" width="200"/>
 
 The code snippet for library is lib and when you press `Enter`, it finishes the word and positions your cursor between the brackets where you need it - less clicking - healthier carpal tunnels!
@@ -102,7 +101,7 @@ You can also use condensed word shortcuts to call functions!
 Try typing `instl` and you will discover what coders call fuzzy matching.
 It searches by unique letters and not specific words like the well-known Ctrl+F function in text editors.
 ```
-If you're interested in saving time with code snippets, you can check out the [RStudio guide](https://support.rstudio.com/hc/en-us/articles/204463668-Code-Snippets) for advanced options or customizing your own snippets!
+If you're interested in saving time with code snippets, you can check out the <a href="https://support.rstudio.com/hc/en-us/articles/204463668-Code-Snippets" target="_blank">RStudio guide</a> for advanced options or customizing your own snippets!
 
 
 #### b) Setting workspace and loading data
@@ -117,7 +116,7 @@ If you're interested in saving time with code snippets, you can check out the [R
 
 #### b) Advanced keyboard shortcuts
 
-Compared to the simple ones, these might be [hard to digest](https://youtu.be/_9bw_VtMUGA?t=210), but they are definitely worth it if you have time to understand them!
+Compared to the simple ones, these might be <a href="https://youtu.be/_9bw_VtMUGA?t=210" target="_blank">hard to digest</a>, but they are definitely worth it if you have time to understand them!
 
 
 
@@ -165,3 +164,6 @@ add a script
 I have no more tricks for you today but in the spirit of the data science community, I'd be very happy to hear any feedback or comments, and let me know if you know any other little tweaks that helped you on your journey! I hope I left you feeling motivated to tackle your own coding tasks - after all, the main purpose of this tutorial was to make you feel more confident and cool (cuz only cool kidz listen to tame impala).
 
 Give me a shout at s1861053@ed.ac.uk!
+
+
+Cover image sourced at: https://favim.com/image/7759092/
