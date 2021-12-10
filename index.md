@@ -1,24 +1,26 @@
 <p align="center">
-<p style="text-align:center;"><img src="images/coverimage2.png" alt="coverimage2"/>  
+<p "><img src="images/coverimage2.png" alt="coverimage2"/>  
 
 
 
 This tutorial was designed to help you to boost your confidence in R and RStudio by showing you how you can use RStudio to its full potential with simple tips, tricks and shortcuts! It is supposed to make you feel good about your fresh R skills and works best coupled with a pair of headphones!  
 
-  <br>
+<br>
 
 ### Why do you need this?  
 
+<br>
+
 Let me start by saying that R is not the easiest coding language to learn and it might be that just like the rest of us, you are struggling to get a grip on it and need a little boost to help you learn to love it and maybe even make it a little bit of fun. The RStudio is an opensource software used increasingly in data science, but especially because of the characteristics and specificities of the language (don't use spaces in your file names!) is known to drive people crazy, frustrated and overwhelmed - and you might not be the exception! Your workspace may look too busy for you to concentrate or you just want to be a little faster in your command, so you can focus on the actual analysis you were supposed to do in the first place... right?
-
+<br>
 But remember, even if you're struggling now, eventually even <a href="https://youtu.be/C7VlC0QjdHU?t=38" target="_blank">terrible memories turn into great ones</a> and soon you'll be surprised by your new coding abilities!  
-
+<br>
 While these tips will not necessarily give you all the quantitative skills to become an experienced data scientist, they will make you feel like one, which is only a step away from the final transformation. With a little bit of luck, this tutorial will make coding less overwhelming and way more enjoyable. The material that I will be sharing are mostly quick fixes to make coding smoother and faster and if it gets too much at any point, you can stop and come back to it when you have more energy! This means the tutorial is friendly for all kinds of working patterns and above all should give you motivation along your coding journey, whether you're a beginner or an experienced coder. It's designed as a resource to help you, so you can work through it on your own terms, one step at a time.
-
+<br>
 The tutorial is introductory level and can be useful to you even if you have only started on your R language learning journey, but contains information that can be useful even for intermediate or advanced R users! I organized the tutorial in order of importance from most important to least (to get your full attention for the essential part!), but everyone's needs are different, so **feel free to skip directly to any of the parts that you think will be most useful to you!**
-
+<br>
 Specify what version of R im using
-
+<br>
 Outline:
 - Organizing your RStudio workspace for convenience
   - Make your script pane larger
@@ -41,11 +43,11 @@ Outline:
 - Extra
 
 **(can i toggle different sections?)**
-
+<br>
 You can download the data that I am using from <a href="https://github.com/EdDataScienceEES/tutorial-sharkie58" target="_blank">this repository</a>, by clicking on `Code` and downloading the zip file. However I encourage you to use this on your own datasets for a more applied and hands-on experience!
-
+<br>
 ### 1. Organizing your RStudio workspace for convenience
-
+<br>
 #### a) Make your script pane larger
 Let's begin by making your RStudio feel a bit more homey! If you ask me, the original look of the panes all squished together with little space to write in and even less to see is not ideal. Thankfully we can adjust it to work around our needs:
 
