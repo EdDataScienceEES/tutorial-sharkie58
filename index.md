@@ -1,15 +1,9 @@
 <img src="images/coverimage2.png" alt="coverimage2"/>  
-
-
-
+<br>
 This tutorial was designed to help you to boost your confidence in R and RStudio by showing you how you can use RStudio to its full potential with simple tips, tricks and shortcuts! It is supposed to make you feel good about your fresh R skills and works best coupled with a pair of headphones!  
-
 <br>
-
 ### Why do you need this?  
-
 <br>
-
 Let me start by saying that R is not the easiest coding language to learn and it might be that just like the rest of us, you are struggling to get a grip on it and need a little boost to help you learn to love it and maybe even make it a little bit of fun. The RStudio is an opensource software used increasingly in data science, but especially because of the characteristics and specificities of the language (don't use spaces in your file names!) is known to drive people crazy, frustrated and overwhelmed - and you might not be the exception! Your workspace may look too busy for you to concentrate or you just want to be a little faster in your command, so you can focus on the actual analysis you were supposed to do in the first place... right?
 <br>
 But remember, even if you're struggling now, eventually even <a href="https://youtu.be/C7VlC0QjdHU?t=38" target="_blank">terrible memories turn into great ones</a> and soon you'll be surprised by your new coding abilities!  
@@ -34,13 +28,10 @@ Outline:
   - Format your script with one click
 - Advanced keyboard shortcuts
   - Create your own functions
-
-
-
-
+<br>
 - Bonus
 - Extra
-
+<br>
 **(can i toggle different sections?)**
 <br>
 You can download the data that I am using from <a href="https://github.com/EdDataScienceEES/tutorial-sharkie58" target="_blank">this repository</a>, by clicking on `Code` and downloading the zip file. However I encourage you to use this on your own datasets for a more applied and hands-on experience!
@@ -49,11 +40,11 @@ You can download the data that I am using from <a href="https://github.com/EdDat
 <br>
 #### a) Make your script pane larger
 Let's begin by making your RStudio feel a bit more homey! If you ask me, the original look of the panes all squished together with little space to write in and even less to see is not ideal. Thankfully we can adjust it to work around our needs:
-
+<br>
 Navigate to the toolbar, click on Tools and choose "Global options...".  
 When the following window pops up, choose Pane Layout:
-
-<p style="text-align:center;"><img src="images/paneorganization.png" alt="paneorganization" width="500"/>
+<br>
+<img src="images/paneorganization.png" alt="paneorganization" width="500"/>
 
 
 Here, you can organize your panes to best suit you, but this way works well to make the script panel larger while still having access to everything we need:
@@ -73,7 +64,7 @@ By the way, you might have noticed the theme of my RStudio is yellow! This is no
 One of the things you know, or will undoubtly learn along your R journey, is that the best way to go around saving your work is to save your script either on your computer or even better online using version control such as Github (**click here for a guide on version control**).  
 When you save the script, you don't have to save the image of your workplace (i.e. everything in the console) which can take up unnecessary space on your computer.
 
-<p style="text-align:center;"><img src="images/saveworkspace.png" alt="saveworkspace" width="500"/>
+<img src="images/saveworkspace.png" alt="saveworkspace" width="500"/>
 
 When this image appears on your screen, you can just press "Don't save", but let me tell you - you will get annoyed by this <a href="https://youtu.be/GHe8kKO8uds?t=94" target="_blank">eventually</a>... Which is why you can set your RStudio to never ask this again!
 
@@ -81,7 +72,7 @@ Click on `Tools` again, select `Global options...` and then `General`. Then you 
 
 Just remember to save your script regularly.
 
-<p style="text-align:center;"><img src="images/neversaveworkspace.png" alt="neversaveworkspace" width="500"/>
+<img src="images/neversaveworkspace.png" alt="neversaveworkspace" width="500"/>
 
 
 Now that we've set up RStudio, we can move on to useful shortcuts that can make your analysis faster by typing less!
@@ -96,7 +87,7 @@ My favorite shortcuts are code snippets, which I use at the start of any analysi
 Code snippets are not only those highlighted excerpts from your script, but are also tools used while writing common code. They can save you lots of time when you get used to them!
 
 Try writing `lib` in your script and <a href="https://youtu.be/odeHP8N4LKc?t=40" target="_blank">let it happen</a>...
-<p style="text-align:center;"><img src="images/lib.png" alt="lib" width="200"/>
+<img src="images/lib.png" alt="lib" width="200"/>
 
 The code snippet for library is lib and when you press `Enter`, it finishes the word and positions your cursor between the brackets where you need it - less clicking - healthier carpal tunnels!
 
