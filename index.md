@@ -25,8 +25,9 @@ Outline:
   - b) Set your working directory
   - c) Load your data
 - 3. Useful packages
-  - a) Cleaning column names
-  -
+  - a) Cleaning up your data with janitor
+  - b) Loading packages with pacman
+  - c) Data summary using skimr
 - Simple keyboard shortcuts
   - Format your script with one click
 - Advanced keyboard shortcuts
@@ -36,7 +37,6 @@ Outline:
 - Extra
 
 
-**(can i toggle different sections?)**
 
 You can download the data that I am using from <a href="https://github.com/EdDataScienceEES/tutorial-sharkie58" target="_blank">this repository</a>, by clicking on `Code` and downloading the zip file. However I encourage you to use this on your own datasets for a more applied and hands-on experience!
 
@@ -59,7 +59,7 @@ Here, you can organize your panes to best suit you, but this way works well to m
 
 The history panel is rarely used, so we can minimize it and enjoy the extra space!
 
-**insert image**
+<img src="images/panes.png" alt="panes" width="500"/>
 
 
 By the way, you might have noticed the theme of my RStudio is yellow! This is not essential nor good for effective use of RStudio, but a personalized space will always be more enjoyable to work in! See the Extras for multiple ways to personalize your RStudio!
@@ -84,7 +84,7 @@ Now that we've set up RStudio, we can move on to useful shortcuts that can make 
 
 
 
-### 2. Making use of built-in shortcuts
+### Making use of built-in shortcuts
 
 RStudio offers a whole range of options to shorten the amount of code you write, such as using code snippets or running code from the toolbar. Some shortcuts save less time than others so in the following analysis you can try out which ones work best for you!
 
@@ -121,10 +121,12 @@ To be even faster, you can just copy what I used for this analysis - don't worry
 ```
 # Prepare the workspace and data ----
 ## Load libraries ----
+# install.packages("tidyverse")
 # install.packages("readxl")
 # install.packages("janitor")
 # install.packages("pacman")
 
+library(tidyverse) # loads functions for efficient data manipulation
 library(readxl) # reads xlsx files
 library(janitor) # provides functions to clean your data
 library(pacman) # loads and installs packages at the same time
@@ -169,9 +171,9 @@ impala_manual <- read_excel("data/tameimpala.xlsx")
 impala <- impala_manual
 ```
 
-### 3. Useful packages
+### Useful packages
 
-#### a) Cleaning up your data with janitor
+#### Cleaning up your data with janitor
 
 `janitor` is probably my favorite function in the whole R universe. I highly recommend using it if you like to have tidy data frames and to save you time when typing variable names. In one function, it can clean all the names of your column to lowercase and without spaces to adhere to the <a href="https://ourcodingclub.github.io/tutorials/etiquette/" target="_blank">coding etiquette</a> and you will never have to check what letters are uppercase!
 
@@ -184,7 +186,7 @@ impala_clean <- clean_names(impala)
 ```
 Notice how tidy the data frame looks, plus you won't be having any issues with spaces in column names!
 
-#### b) Loading packages with pacman
+#### Loading packages with pacman
 
 Do you remember how we used code snippets to shorten the amount of typing when loading libraries? Well there is an even better option if you're open to install a new package!
 
@@ -197,7 +199,7 @@ p_load(readxl, janitor, pacman, skimr)
 # p_load loaded all installed packages, and installed and loaded skimr
 ```
 
-#### c) Data summary using skimr
+#### Data summary using skimr
 
 And now to use the new package we loaded in the previous step. `skimr` is a summary function but provides a very comprehensive output and can even show distribution trends in mini histograms! These are not very applicable to this type of data, however would be very useful for example in summarizing count data of different populations of a species.
 
@@ -216,66 +218,63 @@ Keyboard shortcuts are a great way to reduce the time spent on basic coding. You
 
 | Windows |      Mac      |  Meaning |
 |:----------:|:-------------:|:------:|
-| Ctrl + S | Cmd + S | Save |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
+| Ctrl + Enter | Cmd + Enter | Run current line |
+| Ctrl + S | Cmd + S | Save script |
+| Alt + - |    Option + -   |   Insert <- |
+| Ctrl + Shift + M | Cmd + Shift + M |    Insert pipe operator %>% |
+| Ctrl + Shift + C | Cmd + Shift + C | Comment or uncomment one or multiple lines |
+| Ctrl + Z | Cmd + Z | Undo |
+| Ctrl + Shift + Z | Cmd+Shift+Z | Redo |
 
 #### b) Advanced keyboard shortcuts
 
-#### c) Create your own keyboard shortcuts
+Compared to the simple ones, these might be <a href="https://youtu.be/_9bw_VtMUGA?t=210" target="_blank">hard to digest</a>, but they are definitely worth it!
 
-Compared to the simple ones, these might be <a href="https://youtu.be/_9bw_VtMUGA?t=210" target="_blank">hard to digest</a>, but they are definitely worth it if you have time to understand them!
+- Reformat code to look neat by using `Ctrl`+`Shift`+`A` or `Cmd`+`Shift`+`A`
+
+Our code does not look bad but let's try and reformat it with this shortcut! Just choose whichever part you would like to format and press the keyboard shortcut.
+
+Look at how this line changed!
+
+Before:
+<img src="images/keyboard1.png" alt="keyboard1" width="500"/>
+
+After:
+<img src="images/keyboard2.png" alt="keyboard2" width="500"/>
+
+This definitely looks more organized.
+
+- Create your own keyboard shortcuts
+
+You can adjust keyboard shortcuts to work around you!
+Go to the toolbar again, choose `Tools` > `Modify Keyboard Shortcuts` and make your changes!
+
+For example, you can set the pipe shortcut to be `Ctrl +` instead of `Ctrl`+`Shift`+`M` and data wrangling becomes a lot faster!
 
 
 
-Bonus: If you're an experienced R user and are frequently using it to create beautiful visualizations that you've learnt in <a href="https://ourcodingclub.github.io/tutorials/dataviz-beautification-synthesis/" target="_blank">one of the Our Coding Club tutorials</a> or elsewhere, it might be useful for you to create an R profile.
 
-Extra: Personalization
+### Bonus: Creating an R profile
+If you're an experienced R user and are frequently using it to create beautiful visualizations that you've learnt in <a href="https://ourcodingclub.github.io/tutorials/dataviz-beautification-synthesis/" target="_blank">one of the Our Coding Club tutorials</a> or elsewhere, it might be useful for you to create an R profile.
 
-Inspiration:
-https://towardsdatascience.com/tricks-in-r-to-boost-your-productivity-8c977242c69c
+R Profile can be used to execute the same code at the start of each session so you don't always have to type or copy paste the introduction!
+
+This could for example be loading common packages such as `tidyverse` or `janitor` (wink) or setting a ggplot2 theme!
 
 
-https://stackoverflow.com/questions/15703553/auto-format-r-code-in-rstudio
-shortcut for quick formatting (without using a package!)
-Ctrl + Shift + A (Windows)
-CMD + I (Mac)
-
-https://ourcodingclub.github.io/tutorials/data-manip-efficient/
-mention the tutorial on pipes
-
-https://towardsdatascience.com/tricks-in-r-to-boost-your-productivity-part-2-7222461c6671
-creating an R profile (ggplot2 theme)
-customization of the display
-
-https://www.dataquest.io/blog/rstudio-tips-tricks-shortcuts/
-keyboard shortcuts
-creating your own function
-manage packages with renv
-
-http://pol346.com/r_keyboard_shortcuts.html
-create your own keyboard sohrtcuts
-
-let those colours run (breathe deeper)
-At the end of the day (no choice)
-feels like we only go backwards (oh no not again)
-do you remember (one more year)
-i'm about to do something crazy (instant destiny)
-I HAVE JUST BEEN WAITING FOR THE PERFECT TIME TO TELL YOU (Nothing That Has Happened So Far Has Been Anything We Could Control)
-ANOTHER VERSION (yes im changing)
-the hardest part is over/the rest gets easy (On Track)
-
-Things to finish:
-graphics
-packages
-keyboard shortcuts
-add a script
-add copy function to code snippets
 
 
 I have no more tricks for you today but in the spirit of the data science community, I'd be very happy to hear any feedback or comments, and let me know if you know any other little tweaks that helped you on your journey! I hope I left you feeling motivated to tackle your own coding tasks - after all, the main purpose of this tutorial was to make you feel more confident and cool (cuz only cool kidz listen to tame impala).
 
 Give me a shout at s1861053@ed.ac.uk!
 
+
+#### Additional resources:
+https://towardsdatascience.com/tricks-in-r-to-boost-your-productivity-8c977242c69c
+https://stackoverflow.com/questions/15703553/auto-format-r-code-in-rstudio
+https://www.dataquest.io/blog/rstudio-tips-tricks-shortcuts/
+https://towardsdatascience.com/tricks-in-r-to-boost-your-productivity-part-2-7222461c6671
+https://www.dataquest.io/blog/rstudio-tips-tricks-shortcuts/
+http://pol346.com/r_keyboard_shortcuts.html
 
 Cover image adapted from: https://favim.com/image/7759092/
