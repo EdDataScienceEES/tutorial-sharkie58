@@ -8,7 +8,7 @@ This tutorial was designed to help you to boost your confidence in R and RStudio
 
 Let me start by saying that R is not the easiest coding language to learn and it might be that just like the rest of us, you are struggling to get a grip on it and need a little boost to help you learn to love it and maybe even make it a little bit of fun. The RStudio is an opensource software used increasingly in data science, but especially because of the characteristics and specificities of the language (don't use spaces in your file names!) is known to drive people crazy, frustrated and overwhelmed - and you might not be the exception! Your workspace may look too busy for you to concentrate or you just want to be a little faster in your command, so you can focus on the actual analysis you were supposed to do in the first place... right?
 
-But remember, even if you're struggling now, eventually even [terrible memories turn into great ones](https://youtu.be/C7VlC0QjdHU?t=38) and soon you'll be surprised by your new coding abilities!
+But remember, even if you're struggling now, eventually even <a href="https://youtu.be/C7VlC0QjdHU?t=38" target="_blank">terrible memories turn into great ones</a> and soon you'll be surprised by your new coding abilities!
 
 While these tips will not necessarily give you all the quantitative skills to become an experienced data scientist, they will make you feel like one, which is only a step away from the final transformation. With a little bit of luck, this tutorial will make coding less overwhelming and way more enjoyable. The material that I will be sharing are mostly quick fixes to make coding smoother and faster and if it gets too much at any point, you can stop and come back to it when you have more energy! This means the tutorial is friendly for all kinds of working patterns and above all should give you motivation along your coding journey, whether you're a beginner or an experienced coder. It's designed as a resource to help you, so you can work through it on your own terms, one step at a time.
 
@@ -39,7 +39,7 @@ Outline:
 
 **(can i toggle different sections?)**
 
-You can download the data that I am using from [this repository](https://github.com/EdDataScienceEES/tutorial-sharkie58), by clicking on `Code` and downloading the zip file. However I encourage you to use this on your own datasets for a more applied and hands-on experience!
+You can download the data that I am using from <a href="https://github.com/EdDataScienceEES/tutorial-sharkie58" target="_blank">this repository</a>, by clicking on `Code` and downloading the zip file. However I encourage you to use this on your own datasets for a more applied and hands-on experience!
 
 ### 1. Organizing your RStudio workspace for convenience
 
@@ -152,6 +152,7 @@ let those colours run (breathe deeper)
 At the end of the day (no choice)
 feels like we only go backwards (oh no not again)
 do you remember (one more year)
+i'm about to do something crazy (instant destiny)
 
 Things to finish:
 graphics
