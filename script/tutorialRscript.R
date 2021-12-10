@@ -8,8 +8,16 @@ setwd("C:/Users/ondro/OneDrive/School/Data Science/tutorial-sharkie58")
 
 # Load libraries ----
 # install.packages("readxl")
-library("readxl")
+library(readxl)
 
 # Load files ----
-impala <- read_excel("tameimpala.xlsx")
+# 1. manually
+impala_manual <- read_excel("data/tameimpala.xlsx")
+
+# 2. shortcut
+# > library(readxl)
+# > impala_shortcut <- read_excel("data/tameimpala.xlsx")
+# > View(impala_shortcut)
+
+
 
