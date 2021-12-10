@@ -19,7 +19,6 @@ Outline:
 - 1. Organizing your RStudio workspace for convenience
   - a) Make your script pane larger
   - b) Set RStudio to never save your workspace image
-  - c) Organize script into headings and subheadings
 - 2. Using built in shortcuts
   - a) Load libraries with code snippets
   - b) Set your working directory
@@ -28,13 +27,11 @@ Outline:
   - a) Cleaning up your data with janitor
   - b) Loading packages with pacman
   - c) Data summary using skimr
-- Simple keyboard shortcuts
-  - Format your script with one click
-- Advanced keyboard shortcuts
-  - Create your own functions
+- 4. Keyboard shortcuts
+  - Simple keyboard shortcuts
+  - Advanced keyboard shortcuts
 
-- Bonus
-- Extra
+- Bonus: R Profile
 
 
 
@@ -81,7 +78,6 @@ Click on `Tools` again, select `Global options...` and then `General`. Then you 
 Just remember to save your script regularly!
 
 Now that we've set up RStudio, we can move on to useful shortcuts that can make your analysis faster by typing less.
-
 
 
 ### Making use of built-in shortcuts
