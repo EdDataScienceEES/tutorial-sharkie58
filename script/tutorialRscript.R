@@ -5,13 +5,15 @@
 
 # Prepare the workspace and data ----
 ## Load libraries ----
+# install.packages("tidyverse")
 # install.packages("readxl")
 # install.packages("janitor")
 # install.packages("pacman")
 
-library(readxl)
-library(janitor)
-library(pacman)
+library(tidyverse) # loads functions for efficient data manipulation
+library(readxl) # reads xlsx files
+library(janitor) # provides functions to clean your data
+library(pacman) # loads and installs packages at the same time
 
 ## Set working directory ----
 setwd("C:/Users/ondro/OneDrive/School/Data Science/tutorial-sharkie58")
@@ -23,7 +25,7 @@ impala_manual <- read_excel("data/tameimpala.xlsx")
 # 2. shortcut
 # The code for shortcut is copied from the console and commented out as we've done this through the toolbar
 # > library(readxl)
-impala_shortcut <- read_excel("data/tameimpala.xlsx")
+# > impala_shortcut <- read_excel("data/tameimpala.xlsx")
 # > View(impala_shortcut)
 
 # Compare datasets by viewing them from the environment
@@ -32,13 +34,20 @@ impala <- impala_manual
 
 # Efficient use of packages ----
 ## Clean column names ----
-impala_clean <- clean_names(impala)
+impala <- clean_names(impala)
 
-## Efficient loading of packages
-p_load(readxl, janitor, pacman, skimr) # I added a new package in the mix,
-# skimr - which wasn't installed before! p_load loaded all installed packages 
-# and 
+## Efficient loading of packages ----
+p_load(readxl, janitor, pacman, skimr)
+# I added a new package in the mix, skimr - which wasn't installed before!
+# p_load loaded all installed packages, and installed and loaded skimr
 
-
-
+## skimr to summarize data ----
+# First let's organize data in long format instead of wide
+impala_long <- gather(
+  impala,
+  country,
+  chart_position,
+  c(aus, bel_fl, fra, ire, mex_air, nz_hot, por, uk, us_rock)
+)
+skim(impala_long)
 
