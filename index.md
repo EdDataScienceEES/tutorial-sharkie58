@@ -2,7 +2,7 @@
 body {
 background-color: #1d1c2e;
 }
-This tutorial was designed to help you to boost your confidence in R and RStudio by showing you how you can use RStudio to its full potential with simple tips, tricks and shortcuts! It is supposed to make you feel good about your fresh R skills and works best coupled with a pair of headphones :musical_note:
+This tutorial was designed to help you to boost your confidence in R and RStudio by showing you how you can use RStudio to its full potential with simple tips, tricks and shortcuts! It is supposed to make you feel good about your fresh R skills and works best coupled with a pair of headphones!
 
 ### Why do you need this?  
 
@@ -12,9 +12,10 @@ But remember, even if you're struggling now, eventually even <a href="https://yo
 
 While these tips will not necessarily give you all the quantitative skills to become an experienced data scientist, they will make you feel like one, which is only a step away from the final transformation. With a little bit of luck, this tutorial will make coding less overwhelming and way more enjoyable. The material that I will be sharing are mostly quick fixes to make coding smoother and faster and if it gets too much at any point, you can stop and come back to it when you have more energy! This means the tutorial is friendly for all kinds of working patterns and above all should give you motivation along your coding journey, whether you're a beginner or an experienced coder. It's designed as a resource to help you, so you can work through it on your own terms, one step at a time.
 
-The tutorial is introductory level and can be useful to you even if you have only started on your R language learning journey, but contains information that can be useful even for intermediate or advanced R users! I organized the tutorial in order of importance from most important to least (to get your full attention for the essential part!), but everyone's needs are different, so **feel free to skip directly to any of the parts that you think will be most useful to you!**
+The tutorial is beginner level, but you should be familiar with <a href="https://ourcodingclub.github.io/tutorials/intro-to-r/" target="_blank">R basics</a>. And some of the information can be useful even for intermediate or advanced R users! I organized the tutorial in descending order of usefulness to me (to get your full attention for the essential part!), but everyone's needs are different, so **feel free to skip directly to any of the parts that you think will be most useful to you!**
 
-Specify what version of R im using
+I am using RStudio version 2021.09.1+372 "Ghost Orchid", but you should be able to follow this tutorial with earlier and later versions as well.
+
 
 Outline:
 - Organizing your RStudio workspace for convenience
@@ -33,6 +34,7 @@ Outline:
 
 - Bonus
 - Extra
+
 
 **(can i toggle different sections?)**
 
@@ -155,7 +157,6 @@ Things to finish:
 graphics
 packages
 keyboard shortcuts
-how to make it a website
 add a script
 
 
@@ -164,4 +165,4 @@ I have no more tricks for you today but in the spirit of the data science commun
 Give me a shout at s1861053@ed.ac.uk!
 
 
-Cover image sourced at: https://favim.com/image/7759092/
+Cover image adapted from: https://favim.com/image/7759092/
