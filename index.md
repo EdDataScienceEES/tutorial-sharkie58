@@ -1,4 +1,3 @@
-<p align="center">
 <img src="images/coverimage2.png" alt="coverimage2"/>  
 
 
@@ -173,4 +172,3 @@ Give me a shout at s1861053@ed.ac.uk!
 
 
 Cover image sourced at: https://favim.com/image/7759092/
-</p>
